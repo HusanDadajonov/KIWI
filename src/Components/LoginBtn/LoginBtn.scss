@@ -1,0 +1,23 @@
+.login{
+    &__btn{
+        width: 100%;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #fff;
+        padding: 21px 45px;
+        background: #41d481;
+        border-radius: 5px;
+        border: 1px solid #41d481;
+        transition: all 0.4s ease;
+
+        &:hover{
+            color: #41d481;
+            border-color: #41d481;
+            background: transparent;
+        }
+    
+    }
+}

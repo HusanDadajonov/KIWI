@@ -1,0 +1,44 @@
+.search{
+    &__link,
+    &__link--location{
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        text-decoration:  none;
+        padding: 3px 12px;
+        transition: all 0.4s ease;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+
+    &__link--location{
+        color: #787993;
+        background: #d8d8d8;
+        padding-right: 23px;
+        background-image: url("../../../assets/images/location-icon.svg");
+        background-repeat: no-repeat;
+        background-position: center right 6px;
+    }
+
+
+    &__link--nth1{
+        color: #704fff;
+        background: #e5e3ff;
+    }
+    
+    &__link--nth2{
+        color: #57b4e2;
+        background: #e4f6ff;
+    }
+    &__link--nth3{
+        color: #47b95e;
+        background: #d2ffdb;
+    }
+    &__link--nth4{
+        color: #874c1a;
+        background: #f6dac2;
+    }
+}

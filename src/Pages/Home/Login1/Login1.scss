@@ -1,0 +1,106 @@
+.login{
+    &__title{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 80px;
+    }
+
+    &__img--wrap{
+        height: 600px;
+
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__span{
+        display: block;
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #787993;
+        position: relative;
+        z-index: 213;
+
+        &::before{
+            position:absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            content: "";
+            width: 40%;
+            background: #979797;
+            height: 1px;
+            z-index: -1;
+        }
+
+        &::after{
+            display: inline-block;
+            position:absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            content: "";
+            width: 40%;
+            background: #979797;
+            height: 1px;
+            z-index: -1;
+        }
+        margin-bottom: 30px;
+
+    }
+
+    &__err{
+        display: inline-block;
+        color: red;
+        height: 40px;
+    }
+
+    &__link{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #4e72ca;
+    }
+
+    &__wrap{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    &__label{
+        width: 100%;
+        margin-bottom: 26px;
+
+        & input{
+            width: 100%;
+            padding: 20px 20px 20px 20px;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 22px;
+            text-align: center;
+            color: #000;
+            background: #fff;
+            border: 1px solid rgba(151, 151, 151, 0.482592);
+            box-sizing: border-box;
+            border-radius: 5px;
+
+            &::placeholder{
+                color: #c7c7c7;
+            }
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+.footer{
+    padding: 25px 0;
+    background: #f8f8f8;
+
+    &__logo--desc{
+        max-width: 155px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000;
+    }
+
+    &__desc{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    &__logo--link,
+    &__link{
+        transition: all 0.4s ease;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}

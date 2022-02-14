@@ -1,0 +1,13 @@
+.footer-top{
+    padding-top: 20px;
+    margin-bottom: 70px;
+
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(4,260px);
+        grid-column-gap: 78px;
+        border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+        margin-bottom: 20px !important;
+    }
+
+}
